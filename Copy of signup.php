@@ -44,7 +44,7 @@
                     }
                 }
             } else if($resultCheck === 0) {
-                $hashed_password = md5($password);
+                $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
                 $query = "INSERT INTO users (first_name, last_name, email, password, gender) VALUES ('$firstname', '$lastname', '$email', '$hashed_password', '$gender')";
 
@@ -54,7 +54,7 @@
             }
 
             if($validity) {
-                $hashed_password = md5($password);
+                $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
                 $query = "INSERT INTO users (first_name, last_name, email, password, gender) VALUES ('$firstname', '$lastname', '$email', '$hashed_password', '$gender')";
 

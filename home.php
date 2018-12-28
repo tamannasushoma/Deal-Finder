@@ -1,5 +1,4 @@
-<?php include('header.php'); ?>
-<?php include('session.php'); ?>
+<?php include('login_header.php'); ?>
 
 
 <style type="text/css">

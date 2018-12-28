@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -49,7 +49,7 @@
         <a class="dropdown-item" href="#">Aarong</a>
         <a class="dropdown-item" href="#">Pickaboo</a>
       </div>
-      <li>
+</li>
 
       <li class="nav-item">
       <a class="nav-link" href="catagories.php">Catagories </a>

@@ -1,16 +1,35 @@
 
 <?php include('header.php'); ?>
 
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 <title> Welcome to SalesFreak </title>
 <style type="text/css">
  .carousel-inner img {
       width: 100%;
       height: 100%;
+      
+  }
+  body {
+      background-image: url(storeImage/b2.jpg);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      
   }
   
   </style>
-  
-
+  </head>
+<body >
     <div class="container">
     
 
@@ -25,7 +44,7 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="storeImage\mega deals promo_0.jpg" alt="SalesFreak" width="1000" height="500">
+                    <img class="img-responsive" src="storeImage\mega deals promo_0.jpg" alt="SalesFreak" width="500" height="500">
                 <div class="carousel-caption">
                     <h3> Are you a sale Freak?</h3>
                    
@@ -33,22 +52,22 @@
             </div>
 
             <div class="carousel-item">
-            	<img src="storeImage\Aliexpress-coupons.png" alt= "Ali-Express" width="1000" height="500">
+            	<img class="img-responsive" src="storeImage\Aliexpress-coupons.png" alt= "Ali-Express" width="500" height="500">
             
             </div>
 
             <div class="carousel-item">
-            <img src="storeImage\Daraz_Black_Friday-1024x536.jpg" alt="sec" width="1000" height="500">
+            <img class="img-responsive" src="storeImage\Daraz_Black_Friday-1024x536.jpg" alt="sec" width="500" height="500">
             
             </div>
 
             <div class="carousel-item">
-                <img src="storeImage\samsun-eng-650x360.png" alt="samsung" width="1000" height="500">
+                <img class="img-responsive" src="storeImage\samsun-eng-650x360.png" alt="samsung" width="500" height="500">
                 
             </div>
 
             <div class="carousel-item">
-                <img src="storeImage\aarong.png" alt="aarong" width="1000" height="500">
+                <img class="img-responsive" src="storeImage\aarong.png" alt="aarong" width="500" height="500">
                
             </div>
         
@@ -66,5 +85,6 @@
         </div>
 </div>
 
-
 <?php include 'footer.php'; ?>
+</body>
+
