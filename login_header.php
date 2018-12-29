@@ -52,7 +52,7 @@
     
     <!-- Dropdown -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="store.php" id="navbardropdown" data-toggle="dropdown">
+      <a class="nav-link dropdown-toggle" href="member_store.php" id="navbardropdown" data-toggle="dropdown">
         Stores
       </a>
       <div class="dropdown-menu">
