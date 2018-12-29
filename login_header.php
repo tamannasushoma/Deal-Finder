@@ -37,7 +37,7 @@
 <body class="bg-light" >
         
 
-<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
   <!-- Brand -->
   <a class="navbar-brand" href="#">SalesFreak</a>
 
@@ -78,7 +78,7 @@
       <a class="nav-link" href="logout.php">logout</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="login.php">profile</a>
+      <a class="nav-link" href="home.php">profile</a>
     </li>
     </ul>
 </nav>
